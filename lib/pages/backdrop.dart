@@ -169,7 +169,7 @@ class _BackdropState extends State<Backdrop>
                   },
                   child: FocusScope(child: _settingsPage),
                 )
-              : ExcludeFocus(child: _settingsPage),
+              : _settingsPage,
         );
       },
     );
